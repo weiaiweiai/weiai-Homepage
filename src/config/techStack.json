@@ -1,48 +1,32 @@
 {
   "techStack": [
     {
-      "icon": "vscode-icons:file-type-html",
-      "name": "HTML"
+      "icon": "devicon:csharp",
+      "name": "C#"
     },
     {
-      "icon": "devicon:css3",
-      "name": "CSS"
+      "icon": "logos:dotnet",
+      "name": ".NET"
     },
     {
-      "icon": "vscode-icons:file-type-light-js",
-      "name": "JavaScript"
-    },
-    {
-      "icon": "catppuccin:markdown-mdx",
-      "name": "Markdown"
+      "icon": "simple-icons:microsoftsqlserver",
+      "name": "SQL Server"
     },
     {
       "icon": "logos:mysql",
       "name": "MySql"
     },
     {
-      "icon": "logos:php",
-      "name": "PHP"
+      "icon": "simple-icons:linux",
+      "name": "Linux"
     },
     {
-      "icon": "material-icon-theme:python",
-      "name": "Python"
+      "icon": "mdi:microsoft-windows",
+      "name": "Windows Server"
     },
     {
-      "icon": "material-icon-theme:vue",
-      "name": "Vue"
-    },
-    {
-      "icon": "skill-icons:jquery",
-      "name": "Jquery"
-    },
-    {
-      "icon": "skill-icons:photoshop",
-      "name": "PhotoShop"
-    },
-    {
-      "icon": "devicon:xd",
-      "name": "XD"
+      "icon": "catppuccin:markdown-mdx",
+      "name": "Markdown"
     }
   ]
 }

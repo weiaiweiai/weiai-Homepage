@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "name": "EasyTier",
+      "desc": "一个基于WireGuard和P2P的异地组网软件。",
+      "tech": ["Rust", "WireGuard", "P2P"],
+      "url": "https://github.com/EasyTier/EasyTier",
+      "img": "/easytier.png",
+      "contrib": "提供社区服务器-20m-电信-十堰-easytier.weiai.org.cn"
+    },
+    {
+      "name": "linker",
+      "desc": "极具特色的，P2P打洞(UDP+TCP、IPV4+IPV6) + 服务器转发，实现的异地组网、内网穿透。",
+      "tech": ["C#", "dotnet"],
+      "url": "https://github.com/snltty/linker",
+      "img": "/linker-logo.png",
+      "contrib": "提供社区服务器-3m-BGP-郑州"
+    },
+    {
+      "name": "Bootstrap Blazor",
+      "desc": "基于 Bootstrap 的 Blazor 企业级 UI 组件库，提供丰富的组件与样式支持。",
+      "tech": ["Blazor", "Bootstrap", "C#"],
+      "url": "https://github.com/dotnetcore/BootstrapBlazor",
+      "img": "/bb-logo.png",
+      "contrib": "提供官网示例服务器20M-电信-茂名"
+    },
+    {
+      "name": "TS3 服务器",
+      "desc": "搭建与维护 TeamSpeak 3 语音服务器",
+      "tech": ["TeamSpeak 3", "VoIP", "Linux"],
+      "url": "https://www.teamspeak.com/",
+      "img": "/ts3-logo.png",
+      "contrib": "搭建语音服务器-5m-阿里云-杭州-ts3.onlylove.ltd"
+    }
+  ]
+}

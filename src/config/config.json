@@ -1,13 +1,17 @@
 {
-  "name": "鹊楠",
-  "age": "06",
-  "zodiac": "天蝎座♏",
-  "avatarUrl": "https://i.p-i.vip/43/20240913-66e403f2331ec.webp",
+  "name": "唯爱",
+  "age": "02",
+  "zodiac": "巨蟹",
+  "avatarUrl": "https://weiai.org.cn/wp-content/uploads/2025/09/1757868227-%E5%A4%B4%E5%83%8F.jpg",
   "emjoi": "😋",
   "infoTags": {
     "sex": "男",
-    "school": "惠州城市职业学校",
-    "province": "广东省"
+    "school": "家里蹲大学",
+    "province": "安徽"
   },
-  "professions": ["学生", "前端入门者", "后端初学者"]
-}
+  "professions": [ "桌面开发"],
+  "showTodoCard": false,
+  "showIcp": true,
+  "icp": "皖ICP备2025106289号",
+  "icpUrl": "https://beian.miit.gov.cn/"
+}  

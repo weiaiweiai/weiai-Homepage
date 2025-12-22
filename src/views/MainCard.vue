@@ -32,7 +32,7 @@
     <div class="content">
       <div class="leftBox">
         <!-- todo -->
-        <div class="card">
+        <div class="card" v-if="config.showTodoCard">
           <span class="cardHeader">我的一些鸽子计划📃</span>
           <div class="cardMain">
             <div class="todoList">
@@ -140,11 +140,30 @@
           </div>
         </div>
 
-        <div class="typew card">
-          <Icon icon="carbon:quotes" width="16" height="16" />
-          <Typewriter :text="typewriter" />
-          <Icon icon="ph:quotes-fill" width="16" height="16" />
+        <div class="card projects-card" v-if="projects.projects && projects.projects.length">
+          <h3>我参与的项目💼</h3>
+          <div class="projects">
+            <div class="projectItem hover" v-for="(p, idx) in projects.projects" :key="idx">
+              <div class="projectLeft">
+                <img :src="p.img && p.img.length ? p.img : '/project-placeholder.svg'" alt="logo" class="projectLogo" />
+              </div>
+              <div class="projectBody">
+                <div class="projectTitle">
+                  <a :href="p.url" target="_blank">{{ p.name }}</a>
+                </div>
+                <div class="projectDesc">{{ p.desc }}</div>
+                <div class="projectContrib" v-if="p.contrib">
+                  <strong>我做了什么：</strong>
+                  <span class="contribText">{{ p.contrib }}</span>
+                </div>
+                <div class="projectTags">
+                  <span class="tag" v-for="(t, i2) in p.tech" :key="i2">{{ t }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
 
         <!-- 外链按钮 -->
         <div class="linkBox card">
@@ -164,6 +183,7 @@
       <p>
         ©2025 Quenan |
         <a href="https://github.com/QNquenan/Simple-Homepage">仓库</a>
+        <span v-if="config.showIcp && config.icp"> | <a :href="config.icpUrl" target="_blank">{{ config.icp }}</a></span>
       </p>
     </div>
   </div>
@@ -175,6 +195,7 @@ import linkBtns from "../config/linkBtn.json";
 import techStack from "../config/techStack.json";
 import todo from "../config/todo.json";
 import typewriter from "../config/typewriter.json";
+import projects from "../config/projects.json";
 import { Icon } from "@iconify/vue";
 import LinkBtn from "../components/LinkBtn.vue";
 import { onMounted, ref, computed } from "vue";
