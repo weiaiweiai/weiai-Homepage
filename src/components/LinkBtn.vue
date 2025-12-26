@@ -5,7 +5,12 @@
     target="_blank"
     :style="{ background: color }"
   >
-    <Icon :icon="icon" width="36" height="36" />
+    <template v-if="icon && icon.endsWith('.svg')">
+      <img :src="icon" width="36" height="36" alt="" />
+    </template>
+    <template v-else>
+      <Icon :icon="icon" width="36" height="36" />
+    </template>
     <span>{{ text }}</span>
   </a>
 </template>

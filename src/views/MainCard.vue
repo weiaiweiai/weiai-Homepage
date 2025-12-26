@@ -135,7 +135,12 @@
               class="techItem"
               :data-name="i.name"
             >
-              <Icon :icon="i.icon" width="40" height="40" />
+              <template v-if="i.icon && i.icon.endsWith('.svg')">
+                <img :src="i.icon" alt="" width="40" height="40" />
+              </template>
+              <template v-else>
+                <Icon :icon="i.icon" width="40" height="40" />
+              </template>
             </div>
           </div>
         </div>

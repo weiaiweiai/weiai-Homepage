@@ -1,31 +1,31 @@
 {
   "techStack": [
     {
-      "icon": "devicon:csharp",
+      "icon": "/icons/devicon-csharp.svg",
       "name": "C#"
     },
     {
-      "icon": "logos:dotnet",
+      "icon": "/icons/logos-dotnet.svg",
       "name": ".NET"
     },
     {
-      "icon": "simple-icons:microsoftsqlserver",
+      "icon": "/icons/simple-icons-microsoftsqlserver.svg",
       "name": "SQL Server"
     },
     {
-      "icon": "logos:mysql",
+      "icon": "/icons/logos-mysql.svg",
       "name": "MySql"
     },
     {
-      "icon": "simple-icons:linux",
+      "icon": "/icons/simple-icons-linux.svg",
       "name": "Linux"
     },
     {
-      "icon": "mdi:microsoft-windows",
+      "icon": "/icons/mdi-microsoft-windows.svg",
       "name": "Windows Server"
     },
     {
-      "icon": "catppuccin:markdown-mdx",
+      "icon": "/icons/catppuccin-markdown-mdx.svg",
       "name": "Markdown"
     }
   ]
